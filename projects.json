@@ -63,6 +63,27 @@
         }
     },
     {
+        "title": "Micro-SaaS Idea Validator",
+        "description": "A platform where founders submit a startup idea and get instant validation insights: niche clarity, competitor landscape, pricing angle, ICP generation, go-to-market suggestions, validation checklist, and landing-page copy draft.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Startup",
+            "Validation",
+            "SaaS",
+            "Product Strategy",
+            "Founder Tools"
+        ],
+        "links": {
+            "live": "./micro-saas-idea-validator/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
+    },
+    {
         "title": "Positivity Passport",
         "description": "Positivity Passport gives users a virtual passport that fills with stamps as they complete kindness missions in categories like helping, sharing, listening, gratitude, and community. Users can view their journey timeline, unlock global badges, and share passport progress with friends.",
         "tags": [
