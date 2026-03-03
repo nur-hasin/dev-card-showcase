@@ -31,6 +31,17 @@
     }
   },
   {
+  "title": "Speed Sorting Game – Reflex Sort Arena",
+  "description": "A fast-paced arcade-style sorting game where players quickly categorize numbers by selecting them and assigning them to the correct zone under time pressure. Features include combo multiplier system, dynamic score calculation, click-to-sort gameplay (no drag-and-drop), timer-based challenge, mistake detection with visual feedback, and a competitive reflex-focused arena UI. Built using HTML, CSS, and JavaScript for an engaging speed and accuracy challenge.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Sorting", "Arcade UI", "Interactive"],
+  "links": {
+    "live": "./projects/speed-sort/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
     "title": "🛰️ URBAN FLOW OPTIMIZER · smart traffic harmonizer #6248",
     "description": "A city-scale analytics engine that predicts congestion patterns and recommends adaptive signal timing. Features real-time IoT sensor simulation, predictive modeling, traffic visualization, and dynamic signal recommendations for smart city infrastructure.",
     "tags": [
@@ -158,7 +169,7 @@
       "github": "https://github.com/your-github-username"
     }
   },
-  {
+{
     "title": "Text Readability Checker Neon",
     "description": "A modern, neon-themed Text Readability Checker with a side-by-side dashboard layout. Features live analysis of words, sentences, average word length, average sentence length, Flesch Reading Ease, Flesch-Kincaid Grade, Gunning Fog Index, and SMOG Index. Includes copy and download actions, fully responsive and interactive, built with HTML, CSS, and JavaScript.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -169,7 +180,19 @@
       "name": "Anvesha",
       "github": "https://github.com/your-github-username"
     }
+},
+{
+  "title": "Speed Sorting Game – Reflex Sort Arena",
+  "description": "A fast-paced arcade-style sorting game where players quickly categorize numbers by selecting them and placing them into the correct zones. Features include a combo multiplier system, countdown timer with pressure effects, score tracking, mistake penalties, increasing difficulty, and a responsive arena-style UI. Designed with click-to-sort mechanics instead of drag-and-drop for faster gameplay and mobile compatibility. Built using HTML, CSS, and JavaScript for an interactive reflex-based sorting experience.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Sorting", "Arcade", "Interactive UI"],
+  "links": {
+    "live": "./projects/speed-sort-game/"
   },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
   {
     "title": "Emoji Quiz / Picker",
     "description": "A fun and interactive Emoji Quiz / Picker where users guess the meaning of emojis or pick the correct answer. Features randomized emoji sets, score tracking, animated feedback for correct and wrong answers, playful gradient UI, and responsive design. Built entirely with HTML, CSS, and JavaScript for a portfolio-worthy, engaging experience.",
@@ -256,7 +279,19 @@
       "name": "Anvesha",
       "github": "https://github.com/your-github-username"
     }
+},
+{
+  "title": "Logic Gate Puzzle – Circuit Architect",
+  "description": "An interactive circuit-building puzzle game where players design logic gate combinations to match target outputs. Features include real-time Boolean computation, multiple gate types (AND, OR, NOT, XOR, NAND, NOR), dynamic input toggling, glowing output indicator, XP and level progression system, randomized puzzles, and a futuristic neon circuit-board UI. Built with HTML, CSS, and JavaScript for an engaging hands-on digital logic experience.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Logic Gates", "Puzzle", "Interactive UI"],
+  "links": {
+    "live": "./projects/logic-gate-puzzle-game/"
   },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
   {
     "title": "Markdown Linter",
     "description": "A clean and interactive Markdown Linter that detects formatting issues in real-time. Features live preview, rule toggles, auto-fix functionality, issue counter, and a modern glassmorphism UI. Helps developers maintain consistent Markdown formatting efficiently.",
@@ -5304,60 +5339,116 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "links": {
       "live": "./projects/BB-8/index.html"
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+    {
+        "title": "Support Squad Network",
+        "description": "Support Squad Network connects users seeking help with volunteers ready to assist. Users can post support requests, offer help, and build squads for ongoing encouragement. The app tracks successful support missions, awards badges, and highlights inspiring stories from the community.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Social Impact",
+            "Community",
+            "Volunteer",
+            "Support",
+            "Gamification"
+        ],
+        "links": {
+            "live": "./support-squad-network/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
-    "author": {
-      "name": "Omkar",
-      "github": "https://github.com/omkarhole"
-    }
-  },
-  {
-    "title": "Personality Generator",
-    "description": "A web application that generates unique personality descriptions based on user input and predefined traits.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "links": {
-      "live": "./projects/personality-generator/index.html"
+    {
+        "title": "Positivity Passport",
+        "description": "Positivity Passport gives users a virtual passport that fills with stamps as they complete kindness missions in categories like helping, sharing, listening, gratitude, and community. Users can view their journey timeline, unlock global badges, and share passport progress with friends.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Social Impact",
+            "Gamification",
+            "Passport",
+            "Kindness",
+            "Missions"
+        ],
+        "links": {
+            "live": "./positivity-passport/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
-    "author": {
-      "name": "Neeru",
-      "github": "https://github.com/neeru24"
-    }
-  },
-  {
-    "title": "2048 – Luxury Edition",
-    "description": "A modern and visually refined version of the classic 2048 puzzle game featuring smooth tile animations, glassmorphism-inspired design, responsive controls, and score tracking for a satisfying and polished gameplay experience.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "links": {
-      "live": "./projects/2048-puzzle/index.html"
+    {
+        "title": "Community Gratitude Wall",
+        "description": "A digital mural where users post public thank-you notes to others. Notes can be liked, commented on, and featured. The wall grows as more gratitude is shared, creating a vibrant display of appreciation and community spirit. Features colorful sticky-note design, filtering, search, and real-time statistics.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Social",
+            "Community",
+            "Gratitude",
+            "Wall",
+            "Interactive"
+        ],
+        "links": {
+            "live": "./community-gratitude-wall/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
-    "author": {
-      "name": "Omkar",
-      "github": "https://github.com/omkarhole"
-    }
-  },
-  {
-    "title": "CI-CD Pipeline Simulator",
-    "description": "A web application that simulates a Continuous Integration and Continuous Deployment (CI-CD) pipeline. Users can visualize the stages of code integration, testing, and deployment in a simplified manner.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "links": {
-      "live": "./projects/CI-CD-Pipeline-Visualizer/index.html"
+    {
+        "title": "Empathy Echo Chamber",
+        "description": "A platform where users share stories of empathy and support. Each story can be echoed by others, amplifying its reach and impact. Features echo network visualization, celebrates the most echoed stories, and encourages users to participate in empathy challenges. Builds a culture of understanding and emotional support.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Social",
+            "Community",
+            "Empathy",
+            "Stories",
+            "Visualization"
+        ],
+        "links": {
+            "live": "./empathy-echo-chamber/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
-    "author": {
-      "name": "Omkar",
-      "github": "https://github.com/omkarhole"
-    }
-  },
-  {
-    "title": "Pet Name Generator",
-    "description": "A fun web application that generates unique and creative pet names based on user-selected criteria such as pet type, personality traits, and themes.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "links": {
-      "live": "./projects/pet-name-generator/index.html"
+    {
+        "title": "Good Deed Leaderboard",
+        "description": "Track and rank users based on their completed acts of kindness. Users can log their deeds, earn points, unlock badges, and climb the leaderboard. Features weekly challenges, highlights top contributors, streak tracking, and motivates users to keep spreading positivity.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Social Impact",
+            "Gamification",
+            "Community",
+            "Leaderboard",
+            "Kindness"
+        ],
+        "links": {
+            "live": "./good-deed-leaderboard/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
-    "author": {
-      "name": "Neeru",
-      "github": "https://github.com/neeru24"
-    }
-  },
   {
     "title": "Memory Trainer",
     "description": "A web application that helps users train their memory with various exercises and challenges.",
@@ -7450,6 +7541,30 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "links": {
       "live": "./projects/gif-search/index.html"
+    },  "author": {
+      "name": "Neeru",
+      "github": "https://github.com/neeru24"
+    }
+  },
+    {
+        "title": "Pomodoro Timer",
+        "description": "Customizable productivity timer with work/break intervals, task list integration, and session statistics. Features notifications, progress tracking, long breaks after multiple sessions, and statistics dashboard showing focus time, breaks taken, and streaks.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility",
+            "Productivity",
+            "Timer",
+            "Task Management"
+        ],
+        "links": {
+            "live": "./projects/Pomodoro-Timer/"
+        },
+        "author": {
+            "name": "Ayaanshaikh12243",
+            "github": "https://github.com/Ayaanshaikh12243"
+        }
     },
     "author": {
       "name": "Omkar",
