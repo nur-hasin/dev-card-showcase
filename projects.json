@@ -435,6 +435,18 @@
     }
   },
   {
+  "title": "Constraint Coding Game – Think Within Limits",
+  "description": "An interactive logic-based coding challenge game where players must solve mini programming tasks under strict constraints. Each level imposes unique rules such as limited lines of code, restricted keywords, banned operators, time pressure, or memory limits. Features include dynamic constraint generation, real-time validation feedback, scoring system, level progression, and a modern developer-themed UI. Built using HTML, CSS, and JavaScript for an engaging problem-solving experience.",
+  "tags": ["HTML", "CSS", "JavaScript"],
+  "links": {
+    "live": "./projects/constraint-coding-game/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+  {
   "title": "Pomodoro Analytics Dashboard",
   "description": "A modern productivity dashboard based on the Pomodoro Technique featuring real-time session tracking, interactive analytics, and persistent progress storage using localStorage. The application includes dynamic timer modes (Focus & Break), live statistics updates, and a responsive data visualization chart to analyze completed sessions and total focus time. Designed with a premium dashboard-style UI for enhanced user engagement.",
   "tags": ["HTML", "CSS", "JavaScript", "Chart.js"],
