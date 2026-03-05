@@ -281,3 +281,27 @@
     background: #f44336;
     color: white;
 }
+
+.intensity-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.intensity-low {
+    background: #4CAF50;
+    color: white;
+}
+
+.intensity-medium {
+    background: #FFC107;
+    color: black;
+}
+
+.intensity-high {
+    background: #f44336;
+    color: white;
+}

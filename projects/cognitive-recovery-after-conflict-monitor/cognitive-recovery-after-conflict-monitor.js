@@ -285,6 +285,28 @@ function getRecoveryTimeBadgeClass(recoveryTime) {
     return 'badge-slow';
 }
 
+/**
+ * Get CSS class for intensity badge based on intensity value
+ * @param {number} intensity - Intensity value from 1-10
+ * @returns {string} CSS class for the badge
+ */
+function getIntensityBadgeClass(intensity) {
+    if (intensity <= 3) return 'intensity-low';
+    if (intensity <= 7) return 'intensity-medium';
+    return 'intensity-high';
+}
+
+/**
+ * Get display text for intensity badge
+ * @param {number} intensity - Intensity value from 1-10
+ * @returns {string} Display text for the badge
+ */
+function getIntensityBadgeText(intensity) {
+    if (intensity <= 3) return 'Low';
+    if (intensity <= 7) return 'Medium';
+    return 'High';
+}
+
 function showResults() {
     document.getElementById('testSection').style.display = 'none';
     document.getElementById('resultsSection').style.display = 'block';
@@ -393,6 +415,8 @@ function updateHistory() {
         const item = document.createElement('div');
         item.className = 'history-item';
         const date = new Date(result.timestamp).toLocaleDateString();
+        const intensityBadgeClass = getIntensityBadgeClass(result.intensity);
+        const intensityBadgeText = getIntensityBadgeText(result.intensity);
         
         let recoveryTimeHtml = '';
         if (result.recoveryTime) {
@@ -401,7 +425,8 @@ function updateHistory() {
         }
         
         item.innerHTML = `
-            <strong>${date}</strong> - Intensity: ${result.intensity}/10<br>
+            <strong>${date}</strong> - Intensity: ${result.intensity}/10 
+            <span class="intensity-badge ${intensityBadgeClass}">${intensityBadgeText}</span><br>
             Reaction: ${result.reactionTime}ms (Baseline: ${result.baselineReactionTime || 'N/A'}ms)<br>
             Memory: ${result.memoryScore}/5 (Baseline: ${result.baselineMemoryScore || 'N/A'}/5)
             ${recoveryTimeHtml}
