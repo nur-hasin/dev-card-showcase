@@ -286,6 +286,18 @@
     }
   },
   {
+  "title": "Minimal Deduction Puzzle – Logic Inference Challenge",
+  "description": "A clean yet challenging deduction puzzle where players uncover a hidden combination of colors, shapes, and numbers using logical clues from previous guesses. Each round provides feedback hints that help narrow possibilities, encouraging reasoning and pattern analysis. Features include a dynamic clue system, limited attempts mode, streak tracking, animated feedback indicators, and a sleek minimalist UI designed for focused puzzle solving. Built with HTML, CSS, and JavaScript for an engaging and brain-teasing logic experience.",
+  "tags": ["HTML", "CSS", "JavaScript"],
+  "links": {
+    "live": "./projects/minimal-deduction-puzzle/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+  {
     "title": "Daily Energy Map – Side-by-Side Energy Dashboard",
     "description": "A modern, interactive dashboard to track daily energy levels hour by hour. Features include a circular energy map on the left, sliders and summary stats on the right, color-coded energy levels (low: red, medium: yellow, high: green), weekly trend chart, dark/light mode toggle, and responsive side-by-side layout for a visually engaging experience. Built with HTML, CSS, JavaScript, and Chart.js.",
     "tags": [
