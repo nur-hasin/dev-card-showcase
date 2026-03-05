@@ -9636,6 +9636,18 @@
     }
   },
   {
+  "title": "GratiVault – Tiny Gratitude Vault",
+  "description": "A minimalist gratitude journaling tool where users store thankful thoughts as glowing vault capsules. Each entry is saved locally and revealed with a click animation, creating a visual vault of positive memories. Includes random gratitude highlights, entry counters, and a soft glassmorphism interface.",
+  "tags": ["HTML", "CSS", "JavaScript", "Wellness", "Productivity", "Interactive"],
+  "links": {
+    "live": "./projects/tiny-gratitude/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+  {
     "title": "Responsive Card Slider",
     "description": "A responsive card slider that allows users to navigate through a collection of cards with smooth animations and touch support.",
     "tags": ["HTML", "CSS", "JavaScript"],
