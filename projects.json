@@ -1,5 +1,17 @@
 [
   {
+  "title": "Binary Master – Interactive Binary Conversion Game",
+  "description": "An interactive learning game where players toggle glowing binary nodes to match a target decimal number. Instead of typing answers, users activate circular bit switches representing binary weights, watching the live decimal value update in real time. Features include a reactor-style control panel UI, visual bit-weight indicators, instant feedback, score tracking, and smooth toggle animations. Built with HTML, CSS, and JavaScript to make binary number learning fun, visual, and engaging.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Binary", "Educational", "Interactive"],
+  "links": {
+    "live": "./projects/binary-master/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
     "title": "Autonomous Dataset Validator #5069",
     "description": "Advanced dataset validation, quality assessment, and automated cleaning for data science workflows. Features include file upload (CSV/JSON), automated validation (data types, missing values, duplicates, outliers, consistency), comprehensive data analysis with statistics and correlations, automated data cleaning, and export functionality with quality reporting.",
     "tags": [
