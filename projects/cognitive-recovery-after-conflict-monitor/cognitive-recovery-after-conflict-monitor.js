@@ -84,6 +84,7 @@ let currentTest = null;
 let reactionStartTime = null;
 let testStep = 0;
 let testResults = {};
+let recoveryChartInstance = null;
 
 function startBaselineTest() {
     currentTest = { type: 'baseline' };
@@ -250,7 +251,7 @@ function saveResult() {
         recoveryResults.push(result);
         localStorage.setItem('cognitiveRecoveryResults', JSON.stringify(recoveryResults));
         updateHistory();
-        updateChart();
+        updateChart(); // This will now properly handle chart updates
         alert('Post-conflict results saved successfully!');
     }
 
@@ -288,10 +289,19 @@ function updateHistory() {
 }
 
 function updateChart() {
-    const ctx = document.getElementById('recoveryChart').getContext('2d');
+    const canvas = document.getElementById('recoveryChart');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
 
-    if (window.recoveryChart instanceof Chart) {
-        window.recoveryChart.destroy();
+    if (recoveryChartInstance instanceof Chart) {
+        recoveryChartInstance.destroy();
+        recoveryChartInstance = null;
+    }
+
+    if (!recoveryResults || recoveryResults.length === 0) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        return;
     }
 
     const data = recoveryResults.map(result => ({
@@ -299,7 +309,7 @@ function updateChart() {
         y: result.reactionTime
     }));
 
-    window.recoveryChart = new Chart(ctx, {
+    recoveryChartInstance = new Chart(ctx, {
         type: 'line',
         data: {
             datasets: [{
@@ -359,5 +369,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const progressBar = document.getElementById('testProgress');
     if (progressBar) {
         progressBar.style.width = '0%';
+    }
+});
+
+window.addEventListener('beforeunload', function() {
+    if (recoveryChartInstance instanceof Chart) {
+        recoveryChartInstance.destroy();
+        recoveryChartInstance = null;
     }
 });
