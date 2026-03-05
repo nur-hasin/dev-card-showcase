@@ -541,6 +541,18 @@
     }
   },
   {
+  "title": "Logic Grid Micro – Deduction Grid Puzzle",
+  "description": "A compact logic puzzle where players solve relationships between items using an interactive deduction grid. Players toggle cells to mark possible or impossible matches while logical clues guide the solution. Features include a dynamic grid interaction system, auto-elimination of impossible combinations, hint assistance, deduction progress meter, and a sleek puzzle-board UI. Built using HTML, CSS, and JavaScript for a satisfying logic and reasoning challenge.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Logic Puzzle", "Grid", "Interactive"],
+  "links": {
+    "live": "./projects/logic-grid-micro/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+  {
     "title": "Thought Processing Speed Monitor",
     "description": "Measure and track your cognitive processing speed through targeted mental exercises and reaction time tests. Monitor mental clarity, decision-making speed, focus duration, and cognitive fatigue to optimize brain performance and identify areas for improvement.",
     "tags": [
