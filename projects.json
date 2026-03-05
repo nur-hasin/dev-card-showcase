@@ -12,6 +12,18 @@
   }
 },
 {
+  "title": "ChronoSense – Time Perception Challenge",
+  "description": "A cognitive mini-game that tests how accurately players can sense the passage of time without seeing a timer. Players start a round, mentally estimate the target time, and stop when they believe the time has passed. The game includes multiple difficulty levels, animated distraction backgrounds that challenge perception, instant accuracy feedback, and an attempt history tracker. Built with HTML, CSS, and JavaScript to create a fun brain-training experience focused on human time perception.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Brain", "Timing", "Interactive"],
+  "links": {
+    "live": "./projects/time-perception-game/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
     "title": "Autonomous Dataset Validator #5069",
     "description": "Advanced dataset validation, quality assessment, and automated cleaning for data science workflows. Features include file upload (CSV/JSON), automated validation (data types, missing values, duplicates, outliers, consistency), comprehensive data analysis with statistics and correlations, automated data cleaning, and export functionality with quality reporting.",
     "tags": [
