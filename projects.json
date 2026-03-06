@@ -36,6 +36,18 @@
   }
 },
 {
+  "title": "Shape Sort Factory – Shape Sorting Challenge",
+  "description": "A fast-paced sorting game where shapes travel on a factory conveyor belt and players must quickly route them into the correct sorting machines. With increasing belt speed, score tracking, and animated factory-style UI, the game combines reaction speed and pattern recognition in a fun interactive challenge.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Shapes", "Puzzle", "Interactive"],
+  "links": {
+    "live": "./projects/shape-sort-challenge/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
   "title": "ComplexityScope – Code Complexity Estimator",
   "description": "A developer-focused tool that analyzes code snippets and estimates their logical complexity using visual metrics. The tool detects loops, conditions, functions, and nesting depth, then displays a complexity score through an animated meter and interactive dashboard cards.",
   "tags": ["HTML", "CSS", "JavaScript", "Developer Tool", "Code Analysis", "Interactive"],
