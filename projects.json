@@ -211,6 +211,18 @@
     }
   },
   {
+  "title": "Light Beam Redirect – Neon Laser Puzzle",
+  "description": "A cyber-themed laser puzzle where players rotate mirrors to redirect a moving laser beam into a glowing target sensor. Featuring animated laser movement, interactive mirrors, move tracking, and neon UI effects, the game challenges players to strategically control light paths.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Puzzle", "Interactive", "Logic"],
+  "links": {
+    "live": "./projects/light-beam-redirect/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+  {
   "title": "Cosmic Constellation – Memory Path Game",
   "description": "A space-themed memory game where players watch stars light up to form a constellation and must recreate the same star sequence. Featuring a cosmic sky interface, glowing star animations, and progressive difficulty levels, the game transforms memory challenges into an immersive constellation-building experience.",
   "tags": ["HTML", "CSS", "JavaScript", "Game", "Memory", "Puzzle", "Interactive"],
