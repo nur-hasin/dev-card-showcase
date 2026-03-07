@@ -57,6 +57,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 12px;
+  position: relative;
 }
 
 button {
@@ -68,6 +69,7 @@ button {
   color: white;
   font-size: 13px;
   transition: background 0.2s ease;
+  position: relative;
 }
 
 button:hover {
@@ -81,6 +83,66 @@ button.secondary {
 
 button.secondary:hover {
   background: #cbd5f1;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: #1e293b;
+  color: white;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 100;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1e293b transparent transparent transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 100;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+@media (max-width: 480px) {
+  .tooltip:before {
+    white-space: normal;
+    width: 150px;
+    text-align: center;
+  }
 }
 
 #status {
