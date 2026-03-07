@@ -12,6 +12,18 @@
   }
 },
 {
+  "title": "Hidden Object Finder – Detective Mystery Game",
+  "description": "A detective-themed hidden object game where players search an investigation board to locate hidden clues like keys, scrolls, and gems. Features a unique detective desk UI, random object placement, hint system, score tracking, and timer mechanics. Built with HTML, CSS, and JavaScript for an engaging visual puzzle experience.",
+  "tags": ["HTML","CSS","JavaScript","Game","Puzzle","Interactive"],
+  "links": {
+    "live": "./projects/hidden-object-finder/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
   "title": "Catch the Falling Numbers – Neon Arcade Reflex Game",
   "description": "A fast-paced arcade reflex game where players move a glowing basket to catch falling numbers before they hit the ground. Designed with a neon arcade UI, animated falling numbers, combo scoring system, difficulty modes, and real-time score tracking. Special colored numbers provide bonus points, penalties, or slow-motion effects, making gameplay more dynamic and engaging. Built using HTML, CSS, and JavaScript with smooth animations and an interactive control panel.",
   "tags": ["HTML", "CSS", "JavaScript", "Game", "Arcade", "Interactive", "Reflex"],
