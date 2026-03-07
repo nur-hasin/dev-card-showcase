@@ -132,6 +132,18 @@
   }
 },
 {
+  "title": "Escape the Laser Grid – Cyber Laser Vault Puzzle",
+  "description": "A strategic grid-based puzzle game where players navigate through a high-security laser vault to reach the exit without triggering laser traps. Designed with a cyber-themed neon interface, animated laser beams, and an interactive grid system. The game features increasing difficulty levels, real-time timer tracking, keyboard navigation, and dynamic laser placement that makes each round different. Built with HTML, CSS, and JavaScript to create an engaging reflex and strategy challenge.",
+  "tags": ["HTML", "CSS", "JavaScript", "Game", "Puzzle", "Interactive", "Grid"],
+  "links": {
+    "live": "./projects/escape-laser-grid/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
     "title": "Autonomous Dataset Validator #5069",
     "description": "Advanced dataset validation, quality assessment, and automated cleaning for data science workflows. Features include file upload (CSV/JSON), automated validation (data types, missing values, duplicates, outliers, consistency), comprehensive data analysis with statistics and correlations, automated data cleaning, and export functionality with quality reporting.",
     "tags": [
